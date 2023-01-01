@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3,1fr);
     max-width: 800px;
     margin:  0 auto;
-    margin-top: 300px;
+    margin-top: 250px;
     background-color: white;
     border-radius: 10px;
     box-shadow:  0  0 10px black;
