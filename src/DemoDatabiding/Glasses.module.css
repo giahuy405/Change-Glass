@@ -1,0 +1,51 @@
+.buttonGroup{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 800px;
+    margin:  0 auto;
+    margin-top: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0  0 10px black;
+    padding: 10px;
+    gap: 10px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    transition: .3s;
+}
+button:focus{
+    transform: translateY(-8px);
+}
+.modelWithGlass{
+    position: relative;
+    overflow: hidden;
+}
+.glassForModel{
+    position: absolute;
+    top: 34.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 160px;
+}
+.overlay{
+    background-color: rgba( 0 0 0 /.4);
+    color: white;
+    position: absolute;
+     
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0%;
+    width: 250px;
+   padding: 5px 2px;
+}
+p,h6{
+    margin: 0;
+    line-height: 1.2;
+}
+ 
+p span{
+  font-weight: 600;
+     
+}
